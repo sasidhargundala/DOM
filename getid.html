@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document object Model</title>
+</head>
+<body>
+    <h1>Document object Model</h1>
+    <script>
+        function getcube(){
+            var num=document.getElementById("number").value;
+            alert("The ans is" +num*num*num);
+        }
+    </script>
+    <form>
+        Enter Num: <input type="text" id="number">
+        <br>
+        <input type="button" value="find cube" onclick="getcube()">
+    </form>
+</body>
+</html>
